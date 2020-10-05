@@ -30,7 +30,7 @@ dia = 1
 
 while num_billetes * grosor_billete <= altura_obelisco:
     print(dia, num_billetes, num_billetes * grosor_billete)
-    dia = dias + 1
+    dia = dia + 1
     num_billetes = num_billetes * 2
 
 print('Cantidad de días', dia)
